@@ -8,7 +8,7 @@ Ensure you have gunicorn installed
 ```
 $ pip3 install gunicorn
 ```
-Adjust the ```gunicorn_config.py``` file to your liking and run
+Adjust the ```gunicorn_config.py``` to include your cerfile, keyfile, and url:port binding.
 ```
 $ gunicorn -c gunicorn_config.py app:app
 ```
